@@ -1,0 +1,40 @@
+body {
+  background-image: url('stock/bg\ ocean.jpg');
+  background-size: cover;         /* cover = fill screen while preserving aspect ratio */
+  background-repeat: no-repeat;   /* prevents image from repeating */
+  background-position: center;    /* centers the image */
+}
+
+h1{
+    font-family: poppins
+    ;
+}
+ h1{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: center;
+}
+h2{  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: bold;
+   text-align: center;
+}
+.img{
+    align-items: center;
+    border: 3px solid black; 
+    border-radius: 10px;
+    margin: 30px;
+    padding: 0%;
+    height: 200px;
+    
+}
+a::before{
+    color: rgb(238, 255, 0);
+}
+a:visited{
+    color: rgb(255, 128, 0);
+}
+a:hover{
+    color: azure;
+}
